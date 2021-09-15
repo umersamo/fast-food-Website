@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Subway</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        h4{
+            color:white;
+        }
+        a{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    
+        
+
+        
+
+
+    <form id="form1" runat="server">
+    <div>
+        
+        <table width="100%" >
+            <tr >
+            <td width="7%" style="background-color:yellowgreen;"></td>
+                
+                <td width="86%" >
+               <img style="height:100px;  width:300px;" class="mx-auto d-block" src="subway-logo.jpg" />
+ <div class="row">
+     <div class="col-md-2"></div>
+        <div margin-left="50px" class="btn-group btn-group-lg col-md-8">
+            <button type="button" class="btn btn-success"><a href="home.aspx">HOME</a></button>
+            <button type="button" class="btn btn-success"><a href="about.aspx">ABOUT</a></button>
+            <button type="button" class="btn btn-success"><a href="deals.aspx">DEALS</a></button>
+            <button type="button" class="btn btn-success"><a href="items.aspx">ITEMS</a></button>
+            <button type="button" class="btn btn-success"><a href="contactus.aspx">CONTACT US</a></button>
+            <button type="button" class="btn btn-success"><a href="location.aspx">LOCATION</a></button>
+            <button type="button" class="btn btn-success"><a href="login.aspx">LOGIN</a></button>
+
+        </div>
+     <div class="col-md-2"></div>
+     </div>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     
+        
+        </asp:ContentPlaceHolder>
+
+                    <div class="row" style=" margin-top:100px; height:40px; width:100%; margin-left:0px;">
+                        <button id="bt1" class="btn-primary col-md-4"><a href="items.aspx">Our Menu</a></button>
+                        <button class="btn-secondary col-md-4"><a href="deals.aspx">Latest Deals</a></button>
+                        <button  class="btn-success col-md-4"><a href="signin.aspx">Order Now</a></button>
+                    </div>
+                    <footer class="media-body" style=" height:150px; background-color:black; text-align:center; padding:50px">
+                    <h4>SUBWAY® is a Registered Trademark of Subway IP Inc.</h4>
+
+                    <h4>© 2019 Subway IP Inc.</h4>
+
+                    <h4>All Rights Reserved</h4>
+                    </footer>
+                    </td>
+                <td width="7%" style="background-color:yellowgreen;"></td>
+            </tr>
+            </table>
+
+      
+        
+                
+    </div>
+    </form>
+    <script 7="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+        <script src="js/Bootstrap_tutorial.js"></script>
+</body>
+</html>
